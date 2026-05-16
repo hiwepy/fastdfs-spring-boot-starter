@@ -1,0 +1,10 @@
+fastdfs-spring-boot-starter:2.3.x:SUCCESS
+fastdfs-spring-boot-starter:2.7.x:SUCCESS
+fastdfs-spring-boot-starter:3.0.x:FAIL
+fastdfs-spring-boot-starter:3.1.x:FAIL
+fastdfs-spring-boot-starter:3.2.x:FAIL
+fastdfs-spring-boot-starter:3.3.x:FAIL
+fastdfs-spring-boot-starter:3.4.x:FAIL
+fastdfs-spring-boot-starter:3.5.x:FAIL
+fastdfs-spring-boot-starter:4.0.x:FAIL
+fastdfs-spring-boot-starter:master:FAIL

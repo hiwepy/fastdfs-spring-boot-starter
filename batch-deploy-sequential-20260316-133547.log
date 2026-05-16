@@ -1,0 +1,567 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 2.3.x.20240823.RELEASE[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/github/tobato/fastdfs-client/1.27.2/fastdfs-client-1.27.2.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/github/tobato/fastdfs-client/1.27.2/fastdfs-client-1.27.2.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/boot/spring-boot-starter-parent/2.0.0.RELEASE/spring-boot-starter-parent-2.0.0.RELEASE.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/boot/spring-boot-starter-parent/2.0.0.RELEASE/spring-boot-starter-parent-2.0.0.RELEASE.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/fasterxml/jackson/jackson-bom/2.9.4/jackson-bom-2.9.4.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/fasterxml/jackson/jackson-bom/2.9.4/jackson-bom-2.9.4.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/fasterxml/jackson/jackson-parent/2.9.1/jackson-parent-2.9.1.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/fasterxml/jackson/jackson-parent/2.9.1/jackson-parent-2.9.1.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/fasterxml/oss-parent/30/oss-parent-30.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/fasterxml/oss-parent/30/oss-parent-30.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/netty/netty-bom/4.1.22.Final/netty-bom-4.1.22.Final.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/netty/netty-bom/4.1.22.Final/netty-bom-4.1.22.Final.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/projectreactor/reactor-bom/Bismuth-SR7/reactor-bom-Bismuth-SR7.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/projectreactor/reactor-bom/Bismuth-SR7/reactor-bom-Bismuth-SR7.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/logging/log4j/log4j-bom/2.10.0/log4j-bom-2.10.0.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/logging/log4j/log4j-bom/2.10.0/log4j-bom-2.10.0.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/eclipse/jetty/jetty-bom/9.4.8.v20171121/jetty-bom-9.4.8.v20171121.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/eclipse/jetty/jetty-bom/9.4.8.v20171121/jetty-bom-9.4.8.v20171121.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/spring-framework-bom/5.0.4.RELEASE/spring-framework-bom-5.0.4.RELEASE.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/spring-framework-bom/5.0.4.RELEASE/spring-framework-bom-5.0.4.RELEASE.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/data/spring-data-releasetrain/Kay-SR5/spring-data-releasetrain-Kay-SR5.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/data/spring-data-releasetrain/Kay-SR5/spring-data-releasetrain-Kay-SR5.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/data/build/spring-data-build/2.0.5.RELEASE/spring-data-build-2.0.5.RELEASE.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/data/build/spring-data-build/2.0.5.RELEASE/spring-data-build-2.0.5.RELEASE.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/integration/spring-integration-bom/5.0.3.RELEASE/spring-integration-bom-5.0.3.RELEASE.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/integration/spring-integration-bom/5.0.3.RELEASE/spring-integration-bom-5.0.3.RELEASE.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/security/spring-security-bom/5.0.3.RELEASE/spring-security-bom-5.0.3.RELEASE.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/security/spring-security-bom/5.0.3.RELEASE/spring-security-bom-5.0.3.RELEASE.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/session/spring-session-bom/Apple-SR1/spring-session-bom-Apple-SR1.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/springframework/session/spring-session-bom/Apple-SR1/spring-session-bom-Apple-SR1.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/commons/commons-pool2/2.8.0/commons-pool2-2.8.0.pom
+Progress (1): 2.6 kB
+Progress (1): 5.4 kB
+Progress (1): 9.5 kB
+Progress (1): 12 kB 
+Progress (1): 15 kB
+Progress (1): 15 kB
+                   
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/commons/commons-pool2/2.8.0/commons-pool2-2.8.0.pom (15 kB at 37 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/hibernate/hibernate-validator/6.0.8.Final/hibernate-validator-6.0.8.Final.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/hibernate/hibernate-validator/6.0.8.Final/hibernate-validator-6.0.8.Final.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/hibernate/validator/hibernate-validator-relocation/6.0.8.Final/hibernate-validator-relocation-6.0.8.Final.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/hibernate/validator/hibernate-validator-relocation/6.0.8.Final/hibernate-validator-relocation-6.0.8.Final.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/hibernate/validator/hibernate-validator-parent/6.0.8.Final/hibernate-validator-parent-6.0.8.Final.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/hibernate/validator/hibernate-validator-parent/6.0.8.Final/hibernate-validator-parent-6.0.8.Final.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/jboss/arquillian/arquillian-bom/1.1.11.Final/arquillian-bom-1.1.11.Final.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/jboss/arquillian/arquillian-bom/1.1.11.Final/arquillian-bom-1.1.11.Final.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.3/shrinkwrap-bom-1.2.3.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.3/shrinkwrap-bom-1.2.3.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-8/shrinkwrap-descriptors-bom-2.0.0-alpha-8.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-8/shrinkwrap-descriptors-bom-2.0.0-alpha-8.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/hibernate/validator/hibernate-validator/6.0.8.Final/hibernate-validator-6.0.8.Final.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/hibernate/validator/hibernate-validator/6.0.8.Final/hibernate-validator-6.0.8.Final.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8.pom
+Progress (1): 3.8 kB
+Progress (1): 6.4 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8.pom (6.4 kB at 24 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/github/tobato/fastdfs-client/1.27.2/fastdfs-client-1.27.2.jar
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8.jar
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/commons/commons-pool2/2.8.0/commons-pool2-2.8.0.jar
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/github/tobato/fastdfs-client/1.27.2/fastdfs-client-1.27.2.jar (0 B at 0 B/s)
+Progress (1): 4.0 kB
+Progress (2): 4.0 kB | 3.9 kB
+Progress (2): 8.1 kB | 3.9 kB
+Progress (2): 8.1 kB | 8.0 kB
+Progress (2): 11 kB | 8.0 kB 
+Progress (2): 11 kB | 11 kB 
+Progress (2): 11 kB | 14 kB
+Progress (2): 11 kB | 16 kB
+Progress (2): 14 kB | 16 kB
+Progress (2): 14 kB | 19 kB
+Progress (2): 17 kB | 19 kB
+Progress (2): 17 kB | 22 kB
+Progress (2): 21 kB | 22 kB
+Progress (2): 21 kB | 25 kB
+Progress (2): 25 kB | 25 kB
+Progress (2): 25 kB | 29 kB
+Progress (2): 29 kB | 29 kB
+Progress (2): 29 kB | 33 kB
+Progress (2): 29 kB | 37 kB
+Progress (2): 33 kB | 37 kB
+Progress (2): 35 kB | 37 kB
+Progress (2): 38 kB | 37 kB
+Progress (2): 38 kB | 41 kB
+Progress (2): 38 kB | 43 kB
+Progress (2): 38 kB | 46 kB
+Progress (2): 38 kB | 49 kB
+Progress (2): 38 kB | 51 kB
+Progress (2): 38 kB | 56 kB
+Progress (2): 38 kB | 60 kB
+Progress (2): 38 kB | 62 kB
+Progress (2): 38 kB | 66 kB
+Progress (2): 38 kB | 70 kB
+Progress (2): 38 kB | 74 kB
+Progress (2): 38 kB | 79 kB
+Progress (2): 38 kB | 83 kB
+Progress (2): 38 kB | 87 kB
+Progress (2): 38 kB | 91 kB
+Progress (2): 42 kB | 91 kB
+Progress (2): 46 kB | 91 kB
+Progress (2): 50 kB | 91 kB
+Progress (2): 54 kB | 91 kB
+Progress (2): 57 kB | 91 kB
+Progress (2): 61 kB | 91 kB
+Progress (2): 66 kB | 91 kB
+Progress (2): 70 kB | 91 kB
+Progress (2): 74 kB | 91 kB
+Progress (2): 78 kB | 91 kB
+Progress (2): 82 kB | 91 kB
+Progress (2): 86 kB | 91 kB
+Progress (2): 88 kB | 91 kB
+Progress (2): 88 kB | 94 kB
+Progress (2): 88 kB | 97 kB
+Progress (2): 88 kB | 101 kB
+Progress (2): 88 kB | 105 kB
+Progress (2): 88 kB | 108 kB
+Progress (2): 88 kB | 112 kB
+Progress (2): 88 kB | 115 kB
+Progress (2): 88 kB | 118 kB
+Progress (2): 88 kB | 121 kB
+Progress (2): 92 kB | 121 kB
+Progress (2): 92 kB | 124 kB
+Progress (2): 92 kB | 127 kB
+Progress (2): 92 kB | 129 kB
+Progress (2): 92 kB | 130 kB
+Progress (2): 96 kB | 130 kB
+Progress (2): 101 kB | 130 kB
+Progress (2): 105 kB | 130 kB
+Progress (2): 109 kB | 130 kB
+Progress (2): 110 kB | 130 kB
+                             
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8.jar (110 kB at 186 kB/s)
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/commons/commons-pool2/2.8.0/commons-pool2-2.8.0.jar (130 kB at 209 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 6 source files to /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.1:jar[m [1m(default-jar)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:jar-no-fork[m [1m(attach-sources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE.jar to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE.jar
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/pom.xml to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE.pom
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.8.2:deploy[m [1m(default-deploy)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using alternate deployment repository maven-releases::default::https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE.jar
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE.jar (13 kB at 10.0 kB/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE.pom
+Progress (1): 4.1/17 kB
+Progress (1): 8.2/17 kB
+Progress (1): 12/17 kB 
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE.pom (17 kB at 14 kB/s)
+Downloading from maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml
+Progress (1): 358 B
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml (358 B at 308 B/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar
+Progress (1): 4.1/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 12 kB    
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.3.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar (12 kB at 12 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.686 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:28+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[fastdfs-spring-boot-starter/2.3.x] 成功
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 2.7.x.20240823.RELEASE[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 6 source files to /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.1:jar[m [1m(default-jar)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:jar-no-fork[m [1m(attach-sources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE.jar to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE.jar
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/pom.xml to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE.pom
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.8.2:deploy[m [1m(default-deploy)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using alternate deployment repository maven-releases::default::https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE.jar
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE.jar (13 kB at 11 kB/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE.pom
+Progress (1): 4.1/17 kB
+Progress (1): 8.2/17 kB
+Progress (1): 12/17 kB 
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE.pom (17 kB at 17 kB/s)
+Downloading from maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml
+Progress (1): 358 B
+                   
+Downloaded from maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml (358 B at 1.6 kB/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml
+Progress (1): 406 B
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml (406 B at 451 B/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar
+Progress (1): 4.1/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 12 kB    
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/fastdfs-spring-boot-starter/2.7.x.20240823.RELEASE/fastdfs-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar (12 kB at 11 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.631 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:34+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[fastdfs-spring-boot-starter/2.7.x] 成功
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 3.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.291 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:35+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mfastdfs-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[fastdfs-spring-boot-starter/3.0.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 3.1.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.235 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:35+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mfastdfs-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[fastdfs-spring-boot-starter/3.1.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 3.2.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.242 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:36+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mfastdfs-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[fastdfs-spring-boot-starter/3.2.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 3.3.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.248 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:37+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mfastdfs-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[fastdfs-spring-boot-starter/3.3.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 3.4.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.247 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:37+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mfastdfs-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[fastdfs-spring-boot-starter/3.4.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 3.5.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.233 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:38+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mfastdfs-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[fastdfs-spring-boot-starter/3.5.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 4.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.242 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:38+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mfastdfs-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[fastdfs-spring-boot-starter/4.0.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.hiwepy:fastdfs-spring-boot-starter[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:fastdfs-spring-boot-starter 2.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.pom (1.2 kB at 1.8 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar
+Progress (1): 4.0 kB
+Progress (1): 8.1 kB
+Progress (1): 12 kB 
+Progress (1): 15 kB
+Progress (1): 17 kB
+                   
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar (17 kB at 54 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0:enforce[m [1m(default-cli)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 6 source files to /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.1:jar[m [1m(default-jar)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:jar-no-fork[m [1m(attach-sources)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.0.1-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.0.1-SNAPSHOT.jar to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/fastdfs-spring-boot-starter-2.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/pom.xml to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/fastdfs-spring-boot-starter-2.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/fastdfs-spring-boot-starter/target/fastdfs-spring-boot-starter-2.0.1-SNAPSHOT-sources.jar to /Users/wandl/.m2/repository/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/fastdfs-spring-boot-starter-2.0.1-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.8.2:deploy[m [1m(default-deploy)[m @ [36mfastdfs-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using alternate deployment repository maven-snapshots::default::https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots
+Downloading from maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/maven-metadata.xml
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/fastdfs-spring-boot-starter-2.0.1-20260316.055841-1.jar
+Progress (1): 4.1/13 kB
+Progress (1): 8.2/13 kB
+Progress (1): 12/13 kB 
+Progress (1): 13 kB   
+                   
+Uploaded to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/fastdfs-spring-boot-starter-2.0.1-20260316.055841-1.jar (13 kB at 12 kB/s)
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/fastdfs-spring-boot-starter-2.0.1-20260316.055841-1.pom
+Progress (1): 4.1/17 kB
+Progress (1): 8.2/17 kB
+Progress (1): 12/17 kB 
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Uploaded to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/fastdfs-spring-boot-starter-2.0.1-20260316.055841-1.pom (17 kB at 15 kB/s)
+Downloading from maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/maven-metadata.xml
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/maven-metadata.xml
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.151 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:58:44+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy[m [1m(default-deploy)[m on project [36mfastdfs-spring-boot-starter[m: [1;31mFailed to deploy metadata: Could not transfer metadata io.github.hiwepy:fastdfs-spring-boot-starter:2.0.1-SNAPSHOT/maven-metadata.xml from/to maven-snapshots (https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots): Transfer failed for https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/fastdfs-spring-boot-starter/2.0.1-SNAPSHOT/maven-metadata.xml[m: Certificate for <packages.aliyun.com> doesn't match any of the subject alternative names: [mail.aliyun.com, alimail.alibaba.com, alimail-hybrid.aliyun.com, alimailws.alibaba-inc.com, alimei-api-40.alibaba.com, alimei-api-40.aliyun.com, alimei-api.alibaba.com, alimei-api.aliyun.com, alimei-api-sg.aliyuncs.com, alimei-api-us.alibaba.com, alimei-api-us.aliyun.com, alimei-auth-40.alibaba.com, alimei-auth.alibaba.com, alimei-auth.aliyun.com, alimei-auth.sg.aliyun.com, alimei-auth-sg.aliyuncs.com, alimei-auth-us.alibaba.com, alimei-auth.us.aliyun.com, alimei-content.alibaba.com, alimei-content.aliyun.com, alimei-content-sg.aliyuncs.com, alimei-content-us.alibaba.com, alimei-preview.alibaba.com, alimei-preview.aliyun.com, alimei-preview-sg.aliyuncs.com, alimei-preview-us.alibaba.com, alimei-pub-us.alibaba.com, alimei-sub-40.alibaba.com, alimei-sub.alibaba.com, alimei-sub.aliyun.com, alimei-sub-sg.aliyuncs.com, alimei-sub-us.aliyun.com, aliyunmx.mail.alibaba.com, autodiscover.alibaba-inc.com, autodiscover.mxhichina.com, ay29u.mx.alibaba-inc.com, caldav40.alibaba-inc.com, caldav.alibaba-inc.com, caldav.aliyun.com, caldav.mxhichina.com, caldav.sg.aliyun.com, caldavus.alibaba-inc.com, email.aliyun.com, email.mxhichina.com, ex40.alibaba-inc.com, ex.alibaba-inc.com, exmail.aliyun.com, exmobile40.alibaba-inc.com, exmobile.alibaba-inc.com, exmobileus.alibaba-inc.com, ex.mxhichina.com, ex-oversea.alibaba-inc.com, exus.alibaba-inc.com, groupmail.hichina.com, imap40.alibaba-inc.com, imap.alibaba.com, imap.alibaba-inc.com, imap.aliyun.com, imaphk.qiye.aliyun.com, imap-inc.alibaba-inc.com, imap-inc.aliyun.com, imap.mxhichina.com, imap.qiye.aliyun.com, imap.sg.aliyun.com, imapus.alibaba-inc.com, ldap40.alibaba-inc.com, ldap.alibaba-inc.com, ldap.mxhichina.com, ldap.sg.aliyun.com, ldapus.alibaba-inc.com, mail.alibaba-inc.com, mail.dingtalk.com, mailhelp.aliyun.com, mailhelp.mxhichina.com, mail.hichina.com, mailhw.mxhichina.com, mail-inc.qiye.aliyun.com, mail.mxhichina.com, mailopen-netdisk.aliyun.com, mailopen-ws.aliyun.com, mail.qiye.aliyun.com, mailservice.alibaba.com, mail.sg.aliyun.com, mailsso.aliyun.com, mailsso-beta.aliyun.com, mailsso.mxhichina.com, mailsso-personal.aliyun.com, mailsso.sg.aliyun.com, mailsso.us.aliyun.com, mailtry.alibaba-inc.com, mailus.alibaba-inc.com, mx01.mail.alibaba.com, mx02.mail.alibaba.com, mx03.mail.alibaba.com, mx1.alibaba-inc.com, mx1.aliyun.com, mx1.mail.aliyun.com, mx1.mail.aliyun-inc.com, mx1.mail.service.aliyun.com, mx1.qiye.aliyun.com, mx1.sg.aliyun.com, mx2.enterprise.china.alibaba.com, mx2.mail.aliyun.com, mx2.qiye.aliyun.com, mx2.sg.aliyun.com, mx3.enterprise.china.alibaba.com, mx3.qiye.aliyun.com, mx.enterprise.china.alibaba.com, mx.hk.alibaba-inc.com, mx-inc.alibaba-inc.com, mxn.mxhichina.com, mxus1.alibaba-inc.com, mxus.mail.alibaba.com, mxus.mxhichina.com, mxw.mxhichina.com, pop3.alibaba-inc.com, pop3.aliyun.com, pop3.aliyun-inc.com, pop3.mxhichina.com, pop40.alibaba-inc.com, pop.alibaba.com, pop.qiye.aliyun.com, pop.sg.aliyun.com, popus.alibaba-inc.com, pre-alimei-api-40.aliyun.com, pre-alimei-api.aliyun.com, pre-alimei-api-sg.aliyuncs.com, pre-alimei-api-us.aliyun.com, pre-alimei-auth.aliyun.com, pre-alimei-auth.sg.aliyun.com, pre-alimei-auth.us.aliyun.com, pre-alimei-content.aliyun.com, pre-alimei-content.sg.aliyun.com, pre-alimei-sub.aliyun.com, pre-alimei-sub-sg.aliyuncs.com, pre-alimei-sub-us.aliyun.com, pre-mailsso.aliyun.com, pre-mailsso-personal.aliyun.com, pre-mailsso.sg.aliyun.com, pre-mailsso.us.aliyun.com, qiye.aliyun.com, smtp40.alibaba-inc.com, smtp.alibaba.com, smtp.alibaba-inc.com, smtp.aliyun.com, smtp.dm.aliyun.com, smtpdm.aliyun.com, smtpdm-ap-southeast-1.aliyun.com, smtpdm-ap-southeast-2.aliyun.com, smtphk.qiye.aliyun.com, smtp-inc.alibaba-inc.com, smtp-inc.aliyun.com, smtp-inner.alibaba-inc.com, smtp.mxhichina.com, smtp.ocm.aliyun.com, smtp.qiye.aliyun.com, smtp.sg.aliyun.com, smtpus.alibaba-inc.com, static.mxhichina.com, usimap.mail.alibaba.com, usimap.mxhichina.com, usmail.mxhichina.com, usmailsso.mxhichina.com, uspop3.mail.alibaba.com, uspop3.mxhichina.com, ussmtp.mail.alibaba.com, ussmtp.mxhichina.com, webmail.alibaba-inc.com, work.aliyun.com, smtpdm-ap-southeast-1.aliyuncs.com, popv6.qiye.aliyun.com, imapv6.qiye.aliyun.com, smtpv6.qiye.aliyun.com, mx1.lazada.sg, mx2.lazada.sg, ex.qiye.aliyun.com, smtpdm-us-east-1.aliyuncs.com, pre-mail.dingtalk.com, pre-alimei-preview-personal.aliyuncs.com, alimei-preview-personal.aliyuncs.com, alimail-cn.aliyuncs.com, alimail-personal.aliyuncs.com, alimail-beta.aliyuncs.com, alimail-sg.aliyuncs.com, alimail-us.aliyuncs.com, pre-alimail-cn.aliyuncs.com, pre-alimail-personal.aliyuncs.com, pre-alimail-beta.aliyuncs.com, pre-alimail-sg.aliyuncs.com, pre-alimail-us.aliyuncs.com, dm-cn.aliyuncs.com, dm-sg.aliyuncs.com, ex.sg.aliyun.com, ldap.qiye.aliyun.com, smtp.em.dingtalk.com, pop.em.dingtalk.com, imap.em.dingtalk.com, mx1.em.dingtalk.com, mx2.em.dingtalk.com, mx3.em.dingtalk.com, smtpdm-eu-central-1.aliyuncs.com, dm-us.aliyuncs.com, dm-de.aliyuncs.com, mailbee.dingtalk.com, mailbee.aliyun.com, pre-mailbee.dingtalk.com, alimail-de.aliyuncs.com, alimail-hk.aliyuncs.com, sendify.dingstore.cn, sendify.dingstore.com, dingstore.cn, dingstore.com, www.dingstore.cn, www.dingstore.com, smtpdm-eu-central-1.aliyun.com, mx1.sendify.dingstore.cn, mx2.sendify.dingstore.cn, mx3.sendify.dingstore.cn, acalendar.qiye.aliyun.com, alimei-auth.dingtalk.com, alimei-auth.mxhichina.com] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[fastdfs-spring-boot-starter/master] 失败 - 查看日志
