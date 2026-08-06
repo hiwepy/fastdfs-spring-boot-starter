@@ -423,6 +423,7 @@
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-surefire-plugin.vertsion>2.22.1</maven-surefire-plugin.vertsion>
         <maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
+                <fastdfs-client-java.version>1.27-RELEASE</fastdfs-client-java.version>
     </properties>
     
     <dependencies>
@@ -487,17 +488,33 @@
         <!-- <dependency>
             <groupId>net.oschina.zcx7878</groupId>
             <artifactId>fastdfs-client-java</artifactId>
-            <version>1.27.0.0</version>
+            <version>${fastdfs-client-java.version}</version>
         </dependency> -->
         <!-- https://mvnrepository.com/artifact/org.csource/fastdfs-client-java -->
         <!-- <dependency>
             <groupId>org.csource</groupId>
             <artifactId>fastdfs-client-java</artifactId>
-            <version>1.27-RELEASE</version>
+            <version>${fastdfs-client-java.version}</version>
         </dependency> -->
                         
 
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>net.oschina.zcx7878</groupId>
+                <artifactId>fastdfs-client-java</artifactId>
+                <version>${fastdfs-client-java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.csource</groupId>
+                <artifactId>fastdfs-client-java</artifactId>
+                <version>${fastdfs-client-java.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     
 
 </project>
