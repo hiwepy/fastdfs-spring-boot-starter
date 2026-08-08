@@ -24,7 +24,7 @@ import com.github.tobato.fastdfs.spring.boot.utils.FastdfsUtils;
 
 /**
  * TODO
- * @author 		： <a href="https://github.com/easy-4-java">wandl</a>
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 public class FastdfsTemplate {
 
