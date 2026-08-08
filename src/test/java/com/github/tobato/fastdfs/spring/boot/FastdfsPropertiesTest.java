@@ -15,111 +15,106 @@
  */
 package com.github.tobato.fastdfs.spring.boot;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+
 /**
- * Unit tests for {{ @link FastdfsProperties }}.
+ * Unit tests for {@link FastdfsProperties}.
  *
- * <p>Verifies default values, getters/setters and POJO contract.</p>
+ * <p>Verifies default values, getters/setters and the public prefix constant.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 1.0.0
  */
 @DisplayName("FastdfsProperties Tests")
 class FastdfsPropertiesTest {
+
+    private FastdfsProperties props;
+
+    @BeforeEach
+    void setUp() {
+        props = new FastdfsProperties();
+    }
+
     @Test
     @DisplayName("Default constructor creates non-null instance")
     void testDefaultInstance() {
-        FastdfsProperties props = new FastdfsProperties();
         assertThat(props).isNotNull();
-    }
-
-    @Test
-    @DisplayName("Field 'enabled' can be set and read")
-    void testEnabledField() {
-        FastdfsProperties props = new FastdfsProperties();
-        // Use reflection to set private field (covers all fields including those without setters)
-        try {
-            java.lang.reflect.Field f = FastdfsProperties.class.getDeclaredField("enabled");
-            f.setAccessible(true);
-            f.set(props, true);
-            Object value = f.get(props);
-            assertThat(value).isNotNull();
-        } catch (Exception e) {
-            // Field may have a more complex type; skip silently
-        }
-    }
-
-    @Test
-    @DisplayName("Field 'endpoint' can be set and read")
-    void testEndpointField() {
-        FastdfsProperties props = new FastdfsProperties();
-        // Use reflection to set private field (covers all fields including those without setters)
-        try {
-            java.lang.reflect.Field f = FastdfsProperties.class.getDeclaredField("endpoint");
-            f.setAccessible(true);
-            f.set(props, "test");
-            Object value = f.get(props);
-            assertThat(value).isNotNull();
-        } catch (Exception e) {
-            // Field may have a more complex type; skip silently
-        }
-    }
-
-    @Test
-    @DisplayName("Field 'secretKey' can be set and read")
-    void testSecretKeyField() {
-        FastdfsProperties props = new FastdfsProperties();
-        // Use reflection to set private field (covers all fields including those without setters)
-        try {
-            java.lang.reflect.Field f = FastdfsProperties.class.getDeclaredField("secretKey");
-            f.setAccessible(true);
-            f.set(props, "test");
-            Object value = f.get(props);
-            assertThat(value).isNotNull();
-        } catch (Exception e) {
-            // Field may have a more complex type; skip silently
-        }
-    }
-
-    @Test
-    @DisplayName("Field 'expire' can be set and read")
-    void testExpireField() {
-        FastdfsProperties props = new FastdfsProperties();
-        // Use reflection to set private field (covers all fields including those without setters)
-        try {
-            java.lang.reflect.Field f = FastdfsProperties.class.getDeclaredField("expire");
-            f.setAccessible(true);
-            f.set(props, 42);
-            Object value = f.get(props);
-            assertThat(value).isNotNull();
-        } catch (Exception e) {
-            // Field may have a more complex type; skip silently
-        }
-    }
-
-    @Test
-    @DisplayName("Field 'charset' can be set and read")
-    void testCharsetField() {
-        FastdfsProperties props = new FastdfsProperties();
-        // Use reflection to set private field (covers all fields including those without setters)
-        try {
-            java.lang.reflect.Field f = FastdfsProperties.class.getDeclaredField("charset");
-            f.setAccessible(true);
-            f.set(props, "test");
-            Object value = f.get(props);
-            assertThat(value).isNotNull();
-        } catch (Exception e) {
-            // Field may have a more complex type; skip silently
-        }
     }
 
     @Test
     @DisplayName("Public constant 'PREFIX' has expected value")
     void testPREFIXConstant() {
         assertThat(FastdfsProperties.PREFIX).isEqualTo("fdfs");
+    }
+
+    @Test
+    @DisplayName("enabled defaults to false and is round-trippable")
+    void testEnabledField() {
+        assertThat(props.isEnabled()).isFalse();
+        props.setEnabled(true);
+        assertThat(props.isEnabled()).isTrue();
+        props.setEnabled(false);
+        assertThat(props.isEnabled()).isFalse();
+    }
+
+    @Test
+    @DisplayName("endpoint defaults to null and is round-trippable")
+    void testEndpointField() {
+        assertThat(props.getEndpoint()).isNull();
+        props.setEndpoint("http://192.168.1.1");
+        assertThat(props.getEndpoint()).isEqualTo("http://192.168.1.1");
+    }
+
+    @Test
+    @DisplayName("secretKey defaults to null and is round-trippable")
+    void testSecretKeyField() {
+        assertThat(props.getSecretKey()).isNull();
+        props.setSecretKey("secret");
+        assertThat(props.getSecretKey()).isEqualTo("secret");
+    }
+
+    @Test
+    @DisplayName("expire defaults to 100 and is round-trippable")
+    void testExpireField() {
+        assertThat(props.getExpire()).isEqualTo(100);
+        props.setExpire(42);
+        assertThat(props.getExpire()).isEqualTo(42);
+        props.setExpire(0);
+        assertThat(props.getExpire()).isZero();
+    }
+
+    @Test
+    @DisplayName("charset defaults to FastdfsUtils.g_charset and is round-trippable")
+    void testCharsetField() {
+        assertThat(props.getCharset()).isEqualTo(com.github.tobato.fastdfs.spring.boot.utils.FastdfsUtils.g_charset);
+        props.setCharset("UTF-8");
+        assertThat(props.getCharset()).isEqualTo("UTF-8");
+    }
+
+    @Nested
+    @DisplayName("toString / equals behavior")
+    class PojoContractTest {
+
+        @Test
+        @DisplayName("Two instances with same state are equal by field values via getters")
+        void testFieldConsistency() {
+            FastdfsProperties a = new FastdfsProperties();
+            FastdfsProperties b = new FastdfsProperties();
+            b.setEnabled(a.isEnabled());
+            b.setEndpoint(a.getEndpoint());
+            b.setSecretKey(a.getSecretKey());
+            b.setExpire(a.getExpire());
+            b.setCharset(a.getCharset());
+            assertThat(b.isEnabled()).isEqualTo(a.isEnabled());
+            assertThat(b.getEndpoint()).isEqualTo(a.getEndpoint());
+            assertThat(b.getSecretKey()).isEqualTo(a.getSecretKey());
+            assertThat(b.getExpire()).isEqualTo(a.getExpire());
+            assertThat(b.getCharset()).isEqualTo(a.getCharset());
+        }
     }
 }
