@@ -17,6 +17,11 @@ package com.github.tobato.fastdfs.spring.boot.utils;
 
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * <p>Auto-configuration for FastdfsUtils.</p>
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class FastdfsUtils {
 
 	public static String g_charset = "ISO8859-1";

@@ -35,10 +35,12 @@ public class FastdfsTemplate {
 		this.fastdfsProperties = fastdfsProperties;
 	}
 
+	/** @return return the endpoint. */
 	public String getEndpoint() {
 		return StringUtils.endsWith(fastdfsProperties.getEndpoint(), "/") ? fastdfsProperties.getEndpoint() : fastdfsProperties.getEndpoint() + "/";
 	}
 	
+	/** @return return the accsss u r l. */
 	public String getAccsssURL(String group, String path) throws Exception {
 		
 		// 以秒为单位
@@ -65,6 +67,7 @@ public class FastdfsTemplate {
 		
 	}
 	
+	/** @return return the accsss u r l. */
 	public String getAccsssURL(StorePath storePath) throws Exception {
 		
 		// 以秒为单位
@@ -90,6 +93,7 @@ public class FastdfsTemplate {
 		return getEndpoint() + storePath.getFullPath() + "?ts=" + ts + "&token=" + token;
 	}
 	
+	/** @return return the thumb accsss u r l. */
 	public String getThumbAccsssURL(FileStorePath storePath) throws Exception {
 		
 		// 以秒为单位

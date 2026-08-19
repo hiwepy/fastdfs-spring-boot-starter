@@ -2,6 +2,11 @@ package com.github.tobato.fastdfs.spring.boot;
 
 import com.github.tobato.fastdfs.domain.fdfs.StorePath;
 
+/**
+ * <p>Auto-configuration for FileStorePath.</p>
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class FileStorePath extends StorePath {
 
     /*
@@ -31,14 +36,17 @@ public class FileStorePath extends StorePath {
         this.thumb = thumb;
     }
 
+	/** @return return the thumb. */
 	public String getThumb() {
 		return thumb;
 	}
 
+	/** @param thumb set the thumb. */
 	public void setThumb(String thumb) {
 		this.thumb = thumb;
 	}
 	
+    /** @return return the full thumb. */
     public String getFullThumb() {
         return this.getGroup().concat(SPLIT_GROUP_NAME_AND_FILENAME_SEPERATOR).concat(this.thumb);
     }

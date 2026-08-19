@@ -29,6 +29,11 @@ import org.springframework.context.annotation.Import;
 @Documented
 @Inherited
 @Import({ com.github.tobato.fastdfs.FdfsClientConfig.class })
+/**
+ * <p>Auto-configuration for EnableFastdfs.</p>
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public @interface EnableFastdfs {
 	
 }

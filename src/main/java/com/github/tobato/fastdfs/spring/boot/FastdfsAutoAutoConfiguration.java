@@ -29,9 +29,19 @@ import org.springframework.jmx.support.RegistrationPolicy;
 @EnableConfigurationProperties({ FastdfsProperties.class })
 //解决jmx重复注册bean的问题
 @EnableMBeanExport(registration = RegistrationPolicy.IGNORE_EXISTING)
+/**
+ * <p>Auto-configuration for FastdfsAutoAutoConfiguration.</p>
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class FastdfsAutoAutoConfiguration {
 	
 	@Bean
+	/**
+	 * <p>Fastdfs template.</p>
+	 * @param fastdfsProperties
+	 * @return the result
+	 */
 	public FastdfsTemplate fastdfsTemplate(FastdfsProperties fastdfsProperties) {
 		return new FastdfsTemplate(fastdfsProperties);
 	}
